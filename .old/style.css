@@ -1,0 +1,141 @@
+body {
+    height: 100vh;
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    background: #ffffff;
+    color: #191919;
+    margin: 0px;
+}
+
+.medium {
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.bold {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+#particles-js {
+    height: 100%;
+    width: 100%;
+    background: #191919;
+    position: fixed;
+    z-index: -1;
+}
+
+.flex-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(3px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    mask:
+        linear-gradient(#000 0 0),
+        linear-gradient(#000 0 0);
+    -webkit-mask-clip: text, padding-box;
+    mask-composite: exclude;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.left {
+    background-color: none;
+    margin-right: 40px;
+}
+
+#image {
+    width: 232px;
+    border-radius: 50%;
+}
+
+.right {
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.links {
+    background-color: none;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    padding: 0;
+    margin: 16px 0 0 0;
+}
+
+ul > li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 5%;
+}
+
+.icon {
+    height: 52px;
+    transition: .2s ease-in-out 0s;
+}
+
+.icon:hover {
+   transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .flex-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .box {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .medium {
+        font-size: 24px;
+    }
+
+    .bold {
+        font-size: 36px;
+    }
+
+    .left {
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    #image {
+        width: 174px;
+    }
+
+    .right {
+        align-items: center;
+    }
+
+    ul {
+        justify-content: center;
+    }
+
+    ul > li {
+        margin: auto;
+    }
+}
