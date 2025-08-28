@@ -6,7 +6,7 @@ export const themeConfig: ThemeConfig = {
     website: 'https://abmu.xyz/', // Site domain
     title: 'Abdul Muhaymin', // Site title
     author: 'Abdul Muhaymin', // Author name
-    description: 'Minimal blog built by Astro', // Site description
+    description: '', // Site description
     language: 'en-US' // Default language
   },
 
