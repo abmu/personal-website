@@ -11,4 +11,4 @@ Currently a BSc Computer Science student at UCL interested in _networks_ and _ma
 
 - [Email](mailto:amuhaymin.2005@gmail.com)
 - [GitHub](https://github.com/abmu)
-- [LinkedIn](https://www.linkedin.com/in/abmu)
+- [LinkedIn](https://www.linkedin.com/in/abmu/)
